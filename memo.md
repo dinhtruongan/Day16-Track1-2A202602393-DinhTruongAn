@@ -72,7 +72,7 @@ Luận điểm của memo: lợi thế sản phẩm ngày càng ít nằm ở m�
 | Revert về nguyên lý | AI đề xuất và viết các nguyên lý trong bản nháp. | Đây là diễn giải của AI từ dữ kiện công khai, không phải động cơ nội bộ đã xác nhận; người nộp cần xem lại và viết lại theo product sense của mình. |
 | Xác định user/JTBD/4 forces | AI dựng chân dung giả thuyết, JTBD và phân tích 4 forces; chưa có dữ liệu phỏng vấn từ người viết. | Chân dung early adopter dựa một bình luận HN và định vị research preview, không đại diện cohort; switching forces là giả thuyết. Người nộp cần sửa theo trải nghiệm/dữ liệu mình thực sự có. |
 | Dự đoán | AI soạn 3 dự đoán và dấu hiệu kiểm tra trong bản nháp. | Mỗi dự đoán nối với mốc §1 hoặc giả thuyết §2 và có điều kiện có thể làm sai; người nộp cần tự quyết định có đồng ý trước khi nộp. |
-| Viết memo | AI soạn bản nháp bằng tiếng Việt và cấu trúc theo template. | Bản hiện tại chưa được cá nhân hóa bởi người nộp. Họ tên còn để trống; cần người nộp tự rà, sửa và xác nhận nội dung trước khi nộp. Không dùng dữ liệu riêng tư hay API key. |
+| Viết memo | AI soạn bản nháp bằng tiếng Việt và cấu trúc theo template. | Bản hiện tại chưa được cá nhân hóa bởi người nộp. Họ tên và MSV đã được điền theo thông tin người nộp cung cấp; người nộp vẫn cần tự rà, sửa và xác nhận nội dung trước khi nộp. Không dùng dữ liệu riêng tư hay API key. |
 
 ## Nguồn
 
