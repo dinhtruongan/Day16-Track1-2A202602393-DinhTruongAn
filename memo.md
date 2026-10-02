@@ -5,7 +5,7 @@
 **Ngày:** 02/10/2026  
 **Phạm vi:** Các quyết định sản phẩm có nguồn công khai; trạng thái tính năng và kế hoạch tương lai có thể thay đổi theo thời gian.
 
-**Vì sao chọn sản phẩm:** AI đề xuất ChatGPT vì AI là lõi trải nghiệm, có chuỗi quyết định sản phẩm công khai từ 2022 đến 2026, và use case từ hỏi đáp/học tập tới nghiên cứu và hoàn thành công việc đủ rõ để phân tích. Người nộp nên xác nhận lựa chọn này phù hợp với mình.
+**Vì sao chọn sản phẩm:** ChatGPT phù hợp cho teardown vì AI là lõi trải nghiệm, có chuỗi quyết định sản phẩm công khai từ 2022 đến 2026, và use case từ hỏi đáp/học tập tới nghiên cứu và hoàn thành công việc đủ rõ để phân tích.
 
 ## Tóm tắt
 
@@ -68,11 +68,11 @@ Luận điểm của memo: lợi thế sản phẩm ngày càng ít nằm ở m�
 
 | Việc | AI làm hay bạn làm? | Bạn kiểm chứng/phán đoán lại thế nào? |
 |---|---|---|
-| Chọn sản phẩm, tìm nguồn và lập timeline | AI đề xuất ChatGPT, tìm/đọc thông báo sản phẩm và tự chọn 8 mốc cho bản nháp. | Đối chiếu ngày và mô tả với các trang OpenAI đã tra cứu. Các mốc/nhận định vẫn cần người nộp tự rà lại và quyết định giữ hay loại. |
-| Revert về nguyên lý | AI đề xuất và viết các nguyên lý trong bản nháp. | Đây là diễn giải của AI từ dữ kiện công khai, không phải động cơ nội bộ đã xác nhận; người nộp cần xem lại và viết lại theo product sense của mình. |
-| Xác định user/JTBD/4 forces | AI dựng chân dung giả thuyết, JTBD và phân tích 4 forces; chưa có dữ liệu phỏng vấn từ người viết. | Chân dung early adopter dựa một bình luận HN và định vị research preview, không đại diện cohort; switching forces là giả thuyết. Người nộp cần sửa theo trải nghiệm/dữ liệu mình thực sự có. |
-| Dự đoán | AI soạn 3 dự đoán và dấu hiệu kiểm tra trong bản nháp. | Mỗi dự đoán nối với mốc §1 hoặc giả thuyết §2 và có điều kiện có thể làm sai; người nộp cần tự quyết định có đồng ý trước khi nộp. |
-| Viết memo | AI soạn bản nháp bằng tiếng Việt và cấu trúc theo template. | Bản hiện tại chưa được cá nhân hóa bởi người nộp. Họ tên và MSV đã được điền theo thông tin người nộp cung cấp; người nộp vẫn cần tự rà, sửa và xác nhận nội dung trước khi nộp. Không dùng dữ liệu riêng tư hay API key. |
+| Chọn sản phẩm, tìm nguồn và lập timeline | AI chọn ChatGPT, tra cứu thông báo sản phẩm và tổng hợp 8 mốc cho bản nháp. | Ngày và mô tả được đối chiếu với các nguồn OpenAI được dẫn trong memo; lựa chọn mốc dựa trên mức độ thay đổi workflow. |
+| Revert về nguyên lý | AI suy luận các nguyên lý sản phẩm từ những quyết định được công bố. | Đây là diễn giải từ dữ kiện công khai, không phải động cơ nội bộ đã xác nhận. |
+| Xác định user/JTBD/4 forces | AI dựng chân dung, JTBD và phân tích 4 forces dưới dạng giả thuyết. | Chân dung early adopter dựa trên một bình luận Hacker News và định vị research preview; một bình luận không đại diện cho cả cohort. Chưa có phỏng vấn khách hàng; switching forces cũng là giả thuyết phân tích. |
+| Dự đoán | AI soạn ba dự đoán cùng dấu hiệu kiểm chứng. | Mỗi dự đoán nối với một mốc §1 hoặc nhận định §2 và nêu điều kiện có thể khiến dự đoán sai. |
+| Viết memo | AI soạn bản nháp tiếng Việt theo cấu trúc template; họ tên và MSV được điền theo thông tin người dùng cung cấp. | Nội dung gồm dữ kiện có nguồn và các phân tích/dự đoán do AI soạn; chân dung user, JTBD, nguyên lý và dự đoán chưa được kiểm chứng bằng phỏng vấn khách hàng. |
 
 ## Nguồn
 
@@ -92,4 +92,4 @@ Luận điểm của memo: lợi thế sản phẩm ngày càng ít nằm ở m�
 
 ---
 
-**Lưu ý trước khi nộp:** người nộp nên tự mở lại các nguồn và chỉnh nhận định JTBD theo hiểu biết/trải nghiệm của mình.
+**Giới hạn nghiên cứu:** Memo dựa trên thông báo sản phẩm công khai và một bình luận Hacker News; chưa có phỏng vấn khách hàng hay dữ liệu đại diện theo cohort. Các chân dung user, JTBD, switching forces và dự đoán là giả thuyết phân tích.
